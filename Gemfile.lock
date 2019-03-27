@@ -114,6 +114,7 @@ GEM
       railties (>= 4.2, < 5.3)
       responders
     io-like (0.3.0)
+    irb (1.0.0)
     jbuilder (2.8.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
@@ -260,6 +261,7 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   devise
+  irb
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.11)
