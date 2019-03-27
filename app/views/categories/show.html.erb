@@ -1,9 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @category.name %>
-</p>
+<h1><strong><%= @category.name %></strong></h1>
 
-<%= link_to 'Edit', edit_category_path(@category) %> |
+<% if @posts.each do |post| %>
+	<h3><%= link_to post.title, post %></h3>
+	<p><%= post.body %></p>
+
+<% end.empty? %>
+	<p>Sorry, There is no post here!</p>
+<% end %>
+
+<hr>
 <%= link_to 'Back', categories_path %>
