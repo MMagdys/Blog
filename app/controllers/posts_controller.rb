@@ -1,8 +1,9 @@
 class PostsController < ApplicationController
 
 	def index
-
+		# @search = Post.search(params[:search])
 		@posts = Post.all
+		@categories = Category.all
 		# @first_body = "This is the first post body"
 		# @second_body = "This is the Second post body"
 
