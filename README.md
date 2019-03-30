@@ -14,5 +14,5 @@ Blog is project, that allow only admin users to add/update/delete pots and categ
 
 ## Web Interface
 ### Home Page
-![Alt homepage](/screenshots/myblog.png)
+![Alt homepage](/screenshots/myyblog.png)
 
